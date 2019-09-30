@@ -1,0 +1,720 @@
+@media screen and (max-width: 1240px) {
+	#teletravail{
+		margin-left: 50%;
+	}
+
+	#travailsursite{
+		margin-left: 48%;
+	}
+
+	#forfait{
+		margin-left: 5%;
+	}
+}
+
+@media screen and (max-width: 1220px) {
+	#header-tarifs{
+		margin-top: -30px;
+	}
+}
+
+@media screen and (max-width: 1120px) {
+
+	#tarifs .bloc-texte{
+		width: 300px;
+	}
+
+	#teletravail{
+		margin-left: 55%;
+	}
+
+	#travailsursite{
+		margin-left: 53%;
+	}
+
+	#forfait{
+		margin-left: 3%	;
+	}
+}
+
+
+@media screen and (max-width: 1150px) {
+	#outils-content{
+		padding-top: 0px;
+	}
+
+	#header-tarifs{
+		margin-top: -10px;
+	}
+
+	#first-line{
+		margin-top: 0;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	#presentation .bloc-couleur-un{
+		margin-left: 10%;
+	}
+
+	#presentation img{
+		margin-left: 15%;
+	}
+
+	#objectif{
+		margin-left: 3%;
+	}
+
+	#presentation .bloc-couleur-deux{
+		width: 80%;
+	}
+
+	#presentation .bloc-texte{
+		right: 10%;
+	}
+
+}
+
+@media screen and (max-width: 1080px) {
+	#missions img{
+		margin-top: 50px;
+		width: 500px;
+	}
+
+	#missions #secretariat p, #missions #assistanat p{
+		font-size: 0.9em;
+	}
+
+	#missions #secretariat{
+		padding-left: 30px;
+		margin-left: 420px;
+		margin-top: -100px;
+		width: 400px;
+	}
+
+	#missions #assistanat{
+		padding-right: 30px;
+		margin-top: -350px;
+		margin-right: 420px;
+		width: 400px;
+	}
+}
+
+@media screen and (max-width: 965px) {
+	#header-tarifs{
+		margin-top: -30px;
+	}
+
+	#welcome .title{
+		margin-top: 0px;
+	}
+
+	#content-arrow{
+		margin-top: 300px;
+	}
+}
+
+@media screen and (max-width: 910px) {
+	#objectif{
+		margin-left: 0;
+		width: 450px;
+	}
+	
+	#objectif h2, #objectif h3{
+		font-size: 1.5em;
+	}
+
+	#missions #secretariat{
+		margin-left: 0;
+		margin-top: -50px;
+	}
+
+	#missions #assistanat{
+		margin-top: 50px;
+		margin-right: 0;
+	}
+
+	#missions #bloc-couleur-trois{
+		height: 1400px;
+	}
+
+	#outils .hyphen{
+		margin-bottom: 30px;
+	}
+
+	#outils-content img{
+		width: 30px;
+	}
+
+	#first-line, #second-line{
+		padding: 10px 0;
+	}
+
+	#header-tarifs{
+		margin-top: 40px;
+		padding-top: 0;
+	}
+
+	#teletravail{
+		margin-left: 60%;
+	}
+
+	#travailsursite{
+		margin-left: 58%;
+	}
+
+	#forfait{
+		margin-left: 3%	;
+	}
+
+	#tarifs #desk{
+		width: 500px;
+	}
+}
+
+@media screen and (max-width: 875px) {
+	#header-tarifs{
+		margin-top: 0;
+		padding-top: 0;
+	}
+}
+
+@media screen and (max-width: 855px) {
+	#missions img{
+		margin-top: 20px;
+	}
+
+	#teletravail{
+		margin-left: 65%;
+	}
+
+	#travailsursite{
+		margin-left: 63%;
+	}
+
+	#forfait{
+		margin-left: 1%	;
+	}
+
+	#tarifs #bloc-couleur-cinq{
+		width: 100%;
+	}
+
+	#tarifs-footer{
+		margin-top: 200px;
+	}
+}
+
+@media screen and (max-width: 830px) {
+	#welcome h2{
+		font-size: 1.5em;
+	}
+
+	#content-arrow{
+		margin-top: 250px;
+	}
+
+	img#arrow{
+		width: 40px;
+	}
+
+	#presentation{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#presentation .bloc-couleur-un{
+		position: relative;
+		margin-left: -50px;
+		margin-top: 0;
+		width: 320px;
+		height: 390px;
+	}
+
+	#presentation img{
+		margin-top: 30px;
+		margin-left: 0;
+		position: absolute;
+		width: 300px;
+	}
+
+	#presentation .bloc-couleur-deux{
+		position: absolute;
+		margin-top: 950px;
+		right: 0;
+		width: 50%;
+		height: 304px;
+	}
+
+	#presentation .bloc-texte{
+		position: relative;
+		margin-top: 100px;
+		left: 0;
+		width: 300px;
+	}
+
+	#objectif{
+		position: relative;
+		margin-top: 50px;
+	}
+
+	#competences-icons{
+		font-family: var(--main-font);
+		margin: 40px 0 30px 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	#competences-icons li{
+		height: 130px;
+		border: none;
+		width: calc(100% * (1/4) - 20px);
+	}
+
+	#competences-icons li#competence-missions{
+		padding: 20px 10px 10px 10px;
+	}
+
+	#competences-icons li:hover{
+		width: calc(100% * (1/4) - 20px);
+	}
+
+	li#competence-polyvalence{
+		border-right: none;
+	}
+
+	li#competence-reactivity{
+		border-left: none;
+	}
+
+	#tarifs #plan{
+		width: 300px;
+	}
+
+	#tarifs #desk{
+		margin-top: 50px;
+		width: 400px;
+	}
+
+	#tarifs #bloc-couleur-quatre{
+		margin-top: -450px;
+	}
+
+	#teletravail{
+		margin-left: 55%;
+	}
+
+	#travailsursite{
+		margin-left: 55%;
+	}
+
+	#forfait{
+		margin-left: 3%;
+		margin-top: 0px;
+	}
+
+	#tarifs #bloc-couleur-cinq{
+		width: 100%;
+		height: 300px;
+	}
+
+	#tarifs-footer{
+		margin-top: 150px;
+	}
+
+}
+
+@media screen and (max-width: 775px) {
+	#header-tarifs{
+		margin-top: -20px;
+	}
+
+	#contact-input{
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	#missions img{
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	#missions #bloc-couleur-trois{
+		margin-top: 300px;
+		height: 1300px;
+	}
+}
+
+@media screen and (max-width: 730px) {
+	#header-tarifs{
+		margin-top: 0;
+	}
+
+	#outils-content h2{
+		margin: 10px 0;
+	}
+
+	#outils-content p{
+		font-size: 0.8em;
+	}
+
+	/*changement des p*/
+	#welcome .title{
+		display: none;
+	}
+
+	#welcome .title-responsive{
+		display: block;
+		margin-top: 0;
+		padding: 0 80px;
+	}
+
+	.missions-header{
+		display: none;
+	}
+
+	#missions-header-responsive{
+		padding: 0 40px;
+		display: block;
+	}
+
+	#tarifs-footer{
+		display: none;
+	}
+
+	#tarifs-footer-responsive{
+		display: flex;
+		margin-top: 160px;
+	}
+
+}
+
+@media screen and (max-width: 700px) {
+	#tarifs #plan{
+		margin-left: 0;
+	}
+
+	#tarifs #desk{
+		margin-top: 39px;
+		width: 350px;
+	}
+
+	#teletravail{
+		margin-left: 50%;
+	}
+
+	#travailsursite{	
+		margin-left: 50%;
+		margin-top: 50px;
+	}
+
+	#tarifs #bloc-couleur-quatre{
+		height: 200px;
+		margin-top: -400px;
+	}
+
+	#tarifs #bloc-couleur-cinq{
+		margin-top: 39px;
+		height: 262.5px;
+	}
+
+	#forfait{
+		margin-top: 50px;
+	}
+
+	#tarifs-footer-responsive{
+		margin-top: 80px;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.header-icons, #logo, .navbar{
+		display: none;
+	}
+
+	#navbar-responsive{
+		display: flex;
+	}
+
+	.sticky-menu{
+		display: block;
+	}
+
+	#sticky-header ul{
+		display: none;	
+	}
+
+	#sticky-icons{
+		display: none;
+	}
+
+	#welcome .title{
+		margin-top: -50px;
+	}
+
+	#welcome_img{
+		display: none;
+	}
+
+	#welcome_img_responsive{
+		display: block;
+	}
+
+	#competences-icons li{
+		height: 130px;
+		width: calc(100% * (1/3) - 20px);
+	}
+
+	#competences-icons li:hover{
+		width: calc(100% * (1/3) - 20px);
+	}
+
+	#header-tarifs{
+		margin-top: -10px;
+	}
+
+	#tarifs #plan{
+		display: none;
+	}
+
+	#tarifs #desk{
+		display: none;
+	}
+
+	#tarifs #bloc-couleur-quatre, #tarifs #bloc-couleur-cinq{
+		display: none;
+	}
+
+	#teletravail{
+		margin-bottom: 30px;
+		margin-top: 0px;
+		margin-left: 0;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#tarifs .bloc-texte{
+		width: 100%;
+	}
+
+	#travailsursite{
+		background: var(--medium);
+		margin-left: 0;
+		width: 100%;
+		padding-bottom: 30px;
+		margin-top: 0;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#forfait{
+		margin-left: 0;
+		width: 100%;
+		margin-top: 0;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#tarifs-footer-responsive{
+		margin-top: 50px;
+	}
+
+}
+
+@media screen and (max-width: 630px) {
+	#welcome .title-responsive{
+		margin-bottom: 30px;
+	}
+
+	#outils img.background{
+		display: none;
+	}
+
+	#outils img.background-responsive{
+		display: block;
+		position: absolute;
+		width: 100%;
+	}
+
+	#first-line, #second-line{
+		display: none;
+	}
+
+	#outils-responsive{
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-around;
+	}
+
+	#outils-responsive div{
+		margin: 10px;
+		width: calc(100% * (1/4) - 20px);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;	
+	}
+
+	#tarifs{
+		margin-top: 30px;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	#welcome h2{
+		font-size: 1.2em;
+		padding: 0 10px;
+	}
+
+	#competences-icons li{
+		width: 40%;
+	}
+
+	#competences-icons li:hover{
+		width: 40%;
+	}
+
+	#competences-icons li{
+		height: 130px;
+		width: calc(100% * (1/2) - 20px);
+	}
+
+	#competences-icons li:hover{
+		width: calc(100% * (1/2) - 20px);
+	}
+
+	#missions p{
+		font-size: 0.9em;
+		padding: 0 20px;
+	}
+
+	#missions #secretariat p, #missions #assistanat p{
+		font-size: 0.9em;
+		padding: 0;
+	}
+
+	#missions #secretariat{
+		margin-top: 0;
+		padding-left: 40px;
+		width: 90%;
+	}
+
+	#missions #assistanat{
+		margin-top: 0;
+		padding-right: 40px;
+		width: 90%;
+	}
+
+	#missions #bloc-couleur-trois{
+		margin-top: 300px;
+		height: 0;
+	}
+
+	#outils{
+		margin-top: 0;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	#welcome .title-responsive{
+		padding: 0 20px;
+	}
+
+	#objectif h3{
+		font-size: 1em;
+	}
+
+	#outils-responsive div{
+		width: calc(100% * (1/3) - 20px);
+	}
+
+	.header-tarifs-p{
+		display: none;
+	}
+
+	#header-tarifs-responsive{
+		padding: 0 20px;
+		text-align: center;
+		display: block;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	#objectif{
+		width: 100%;
+	}
+
+	#assistanat p{
+		margin-left: 10px;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	#welcome h2{
+		font-size: 1em;
+	}
+
+	#content-arrow{
+		height: 30px;
+		margin-top: 150px;
+	}
+
+	#competences h3{
+		font-size: 1em;
+		padding: 0 10px;
+	}
+
+	#teletravail, #travailsursite, #forfait, #header-tarifs{
+		text-align: center;
+	}
+
+	#teletravail{
+		margin-top: 0px;
+		margin-left: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#travailsursite{
+		margin-left: 0;
+		margin-top: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#forfait{
+		margin-left: 0;
+		margin-top: 0;
+		align-items: center;
+	}
+
+	#tarifs-footer{
+		margin-top: 30px;
+	}
+
+	#tarifs-footer p{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	#contact form, #contact-input{
+		width: 100%;
+	}
+
+	#contact form input, #contact form textarea{
+		padding-left: 15px;
+		width: 90%;
+	}
+}

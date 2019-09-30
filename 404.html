@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+	<title>404</title>
+	<link rel="shortcut icon" href="img/favicon.png" />
+	<link rel="icon" type="image/x-icon" href="img/favicon.png" />
+	<link rel="icon" type="image/png" href="img/favicon.png" />
+	<link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/masonry.css">
+	<link rel="stylesheet" href="css/slider.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/projects.css">
+</head>
+<body>
+	<section id="page-burger" style="display: none">
+		<ul>
+			<li><a href="index.html">TOUS LES PROJETS</a></li>
+		</ul>
+	</section>
+	<div class="cqui sticky">
+		<div class="cmoi">
+			<a href="index.html">
+				<h2>DESIGNER GRAPHIQUE</h2>
+				<h2>WEBDESIGNER /</h2>
+				<h1>Sophie Quehen</h1>
+			</a>
+		</div>
+		<div class="monogramme display-none">
+			<a href="index.html"><img src="img/favicon.png"></a>
+		</div>
+		<ul class="nav-projects">
+			<li><a href="index.html">TOUS LES PROJETS</a><div class="nav-hyphen"></div></li>
+		</ul>
+		<div id="burger">
+			<div class="icon">
+				<div class="bar top"></div>
+				<div class="bar middle"></div>
+				<div class="bar bottom"></div>
+			</div>
+		</div>
+	</div>
+
+	<a href="cv.html">
+		<div class="cv-link">
+			<p class="cv">À PROPOS / CV</p>
+			<div class="cv-hyphen"></div>
+		</div>
+	</a>
+
+	<div class="container project-page">
+		<p id="error">404</p>
+		<p id="introuvable">Page introuvable</p>
+		<div class="footer">
+			<div class="hyphen"></div>
+			<p>©Sophie Quehen 2019</p>
+		</div>
+	</div>
+
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/filters.js"></script>
+	<script type="text/javascript" src="js/slider.js"></script>
+	<script type="text/javascript">
+	//pour le menu burger
+	$('#burger').click(function(){
+		$('.container').toggle();
+		$('#page-burger').toggle();
+		$('.bar').toggleClass('icon-hover-bar');
+		$('.top').toggleClass('icon-hover-top');
+		$('.bottom').toggleClass('icon-hover-bottom');
+		$('.middle').toggleClass('icon-hover-middle');
+	});
+	</script>
+	<script type="text/javascript">
+				//sticky header
+				$(window).scroll(function(){
+					var sticky = $('.sticky'),
+					monogramme = $('.monogramme'),
+					cmoi = $('.cmoi'),
+					cv = $('.cv'),
+					cvhyphen = $('.cv-hyphen'),
+					scroll = $(window).scrollTop();
+
+					if (scroll >= 90) {
+						sticky.addClass('fixed');
+						sticky.css('padding-top', '30px');
+						cmoi.addClass('display-none');
+						monogramme.removeClass('display-none');
+						cv.addClass('cvsticky');
+						cvhyphen.addClass('cv-hyphensticky');
+					}else{ 
+						sticky.removeClass('fixed');
+						sticky.css('padding-top', '50px');
+						cmoi.removeClass('display-none');
+						monogramme.addClass('display-none');
+						cv.removeClass('cvsticky');
+						cvhyphen.removeClass('cv-hyphensticky');
+					}
+				});
+				</script>
+
+			</body>
+			</html>

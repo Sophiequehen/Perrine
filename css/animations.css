@@ -1,0 +1,100 @@
+#welcome .title{
+  opacity:0;
+  -moz-animation: anim 0.5s linear forwards 0.5s;
+  -webkit-animation: anim 0.5s linear forwards 0.5s;
+  -o-animation: anim 0.5s linear forwards 0.5s;
+  -ms-animation: anim 0.5s linear forwards 0.5s;
+  animation: anim 0.5s linear forwards 0.5s;
+}
+
+#welcome #content-arrow{
+  /*opacity:0;
+  -moz-animation: anim 0.8s linear forwards 0.8s;
+  -webkit-animation: anim 0.8s linear forwards 0.8s;
+  -o-animation: anim 0.8s linear forwards 0.8s;
+  -ms-animation: anim 0.8s linear forwards 0.8s;
+  animation: anim 0.8s linear forwards 0.8s;*/
+
+  -webkit-bounceation: bounce 0.7s linear infinite;
+  -moz-animation: bounce 0.7s linear infinite;
+  -ms-animation: bounce 0.7s linear infinite;
+  -o-animation: bounce 0.7s linear infinite;
+  animation: bounce 0.7s linear infinite;
+}
+
+@-moz-keyframes anim {
+ 0%  {opacity:0;}
+ 100% {opacity:1;}
+}
+@-webkit-keyframes anim {
+ 0%  {opacity:0;}
+ 100% {opacity:1;}
+}
+@-o-keyframes anim {
+ 0%  {opacity:0;}
+ 100% {opacity:1;}
+}
+@-ms-keyframes anim {
+ 0%  {opacity:0;}
+ 100% {opacity:1;}
+}
+@keyframes anim {
+ 0%  {opacity:0;}
+ 100% {opacity:1;}
+}
+
+@-moz-keyframes bounce {
+  from{margin-bottom:0px;}
+  10%{margin-bottom:7px;}
+  20%{margin-bottom:13px;}
+  50%{margin-bottom:17px;}
+  60%{margin-bottom:18px;}
+  70%{margin-bottom:17px;}
+  80%{margin-bottom:13px;}
+  90%{margin-bottom:7px;}
+  to{margin-bottom: 0px;}
+}
+@-webkit-keyframes bounce {
+  from{margin-bottom:0px;}
+  10%{margin-bottom:7px;}
+  20%{margin-bottom:13px;}
+  50%{margin-bottom:17px;}
+  60%{margin-bottom:18px;}
+  70%{margin-bottom:17px;}
+  80%{margin-bottom:13px;}
+  90%{margin-bottom:7px;}
+  to{margin-bottom: 0px;}
+}
+@-o-keyframes bounce {
+  from{margin-bottom:0px;}
+  10%{margin-bottom:7px;}
+  20%{margin-bottom:13px;}
+  50%{margin-bottom:17px;}
+  60%{margin-bottom:18px;}
+  70%{margin-bottom:17px;}
+  80%{margin-bottom:13px;}
+  90%{margin-bottom:7px;}
+  to{margin-bottom: 0px;}
+}
+@-ms-keyframes bounce {
+  from{margin-bottom:0px;}
+  10%{margin-bottom:7px;}
+  20%{margin-bottom:13px;}
+  50%{margin-bottom:17px;}
+  60%{margin-bottom:18px;}
+  70%{margin-bottom:17px;}
+  80%{margin-bottom:13px;}
+  90%{margin-bottom:7px;}
+  to{margin-bottom: 0px;}
+}
+@keyframes bounce{
+  from{margin-bottom:0px;}
+  10%{margin-bottom:7px;}
+  20%{margin-bottom:13px;}
+  50%{margin-bottom:17px;}
+  60%{margin-bottom:18px;}
+  70%{margin-bottom:17px;}
+  80%{margin-bottom:13px;}
+  90%{margin-bottom:7px;}
+  to{margin-bottom: 0px;}
+}
